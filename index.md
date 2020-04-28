@@ -3,7 +3,7 @@
 
 <h2>IOT PROJECT</h2>
 
-<form action="/action_page.php">
+<form action="" method="post">
   <label for="city">City: </label><br>
   <input type="text" id="city" name="city" required><br>
   <label for="state">State: </label><br>
