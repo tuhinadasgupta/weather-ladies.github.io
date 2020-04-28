@@ -11,9 +11,14 @@ East = gpiozero.LED(3)
 South = gpiozero.LED(17)
 West = gpiozero.LED(27)
 try:
-    print("trying to get result from php"
+    print("trying to get result from php")
     result = sys.argv[1]
+    result2 = sys.argv[2]
+    result3 = sys.arv[3]
+
     print(result)
+    print(result2)
+    print(result3)
     while True:
         Forward.on()
 
